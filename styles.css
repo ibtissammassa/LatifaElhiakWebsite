@@ -1,0 +1,30 @@
+body{
+    background-color: #e2e2de;
+    font-family: 'Raleway';
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+header, .ulnav{
+    display: flex;
+    background-color: white;
+}
+.center{
+    background-image: url(main_pic-100.jpg);
+    background-size: cover;
+    color: white;
+}
+.welcomediv{
+    background-color: white;
+}
+.mapdiv{
+    background-image: url(map_pic-100.jpg);
+}
+nav,h3,h2,label{
+    text-transform: uppercase;
+}
