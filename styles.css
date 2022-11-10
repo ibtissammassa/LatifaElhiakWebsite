@@ -1,7 +1,10 @@
+*{
+    margin: auto;
+    padding: auto;
+}
 body{
     background-color: #e2e2de;
     font-family: 'Raleway';
-    text-align: center;
 }
 a{
     text-decoration: none;
@@ -10,10 +13,34 @@ a{
 ul{
     list-style-type: none;
 }
-header, .ulnav{
-    display: flex;
-    background-color: white;
+nav,h3,h2,label{
+    text-transform: uppercase;
 }
+
+/* header */
+
+header{
+    background-color: white;
+    display: flex;
+    height: 60px;
+}
+.navlogo{
+    margin-left: 40px;
+}
+header ul li{
+    font-weight: bolder;
+    font-size: 15px;
+}
+header ul{
+    display: flex;
+}
+nav{
+    width: 70%;
+    margin-left: 0;
+}
+
+/*  */
+
 .center{
     background-image: url(main_pic-100.jpg);
     background-size: cover;
@@ -25,6 +52,4 @@ header, .ulnav{
 .mapdiv{
     background-image: url(map_pic-100.jpg);
 }
-nav,h3,h2,label{
-    text-transform: uppercase;
-}
+
