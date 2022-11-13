@@ -39,13 +39,20 @@ nav{
     margin-left: 0;
 }
 
-/*  */
+/*main banniere*/
 
 .center{
     background-image: url(main_pic-100.jpg);
     background-size: cover;
     color: white;
 }
+
+
+
+
+
+
+/*welcome banniere */
 .welcomediv{
     background-color: white;
 }
