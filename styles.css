@@ -68,15 +68,29 @@ nav{
     margin-right:20px;
 }
 
-
-
-
-
-
 /*welcome banniere */
-.welcomediv{
+
+.welcomeDiv{
     background-color: white;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.welcomeDiv h2{
+    font-size: 46px;
+    font-weight: 800; 
+    margin-bottom: 0px;
+}
+.welcomeDiv p{
+    width: 90%;
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 25px;
+}
+
 .mapdiv{
     background-image: url(map_pic-100.jpg);
 }
