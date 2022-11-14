@@ -13,7 +13,7 @@ a{
 ul{
     list-style-type: none;
 }
-nav,h3,h2,label{
+nav,h3,h2{
     text-transform: uppercase;
 }
 
@@ -91,7 +91,63 @@ nav{
     margin-top: 25px;
 }
 
+/*footer */
+footer{
+    display: flex;
+}
+
+.rightDiv li{
+    display: flex;
+}
+.rightDiv img {
+    margin: 15px 15px 25px 0px;
+}
+.rightDiv li p{
+    margin-left: 0px;
+}
+.rightDiv,.leftDiv{
+    margin-top: 205px;
+    width: 40%;
+}
+.rightDiv{
+    margin-top: 250px;
+    margin-bottom: 25px;
+}
+.rightDiv h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.rightDiv p{
+    line-height: 35px;
+}
+
+
+input,textarea{
+    width: 100%;
+    height: 55px;
+    margin-top: 15px;
+}
+textarea{
+    height: 230px;
+}
+label{
+    margin-top: 35px;
+    margin-left: 0px;
+    font-size: 20px;
+
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
 .mapdiv{
     background-image: url(map_pic-100.jpg);
+    height: 500px;
+    color: white;
+}
+.mapdiv h2{
+    font-size: 46px;
+    font-weight: bolder;
 }
 
