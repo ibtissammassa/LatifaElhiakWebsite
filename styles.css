@@ -45,13 +45,13 @@ nav{
 .center{
     background-image: url(main_pic-100.jpg);
     background-size: cover;
+    filter: contrast(87%);
     color: white;
     height: 600px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
+    justify-content: center;}
 
 .centerLogo{
     margin-bottom: 0px;
@@ -143,11 +143,15 @@ form div{
 }
 .mapdiv{
     background-image: url(map_pic-100.jpg);
+    filter: contrast(65%);
     height: 500px;
-    color: white;
+    display: flex;
 }
 .mapdiv h2{
-    font-size: 46px;
+    font-size: 48px;
     font-weight: bolder;
+    text-align: center;
+    margin-top: 45%;
+    color: rgb(95, 91, 91);
 }
 
